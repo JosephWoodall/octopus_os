@@ -1,0 +1,19 @@
+[package]
+name = "octopus_os"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+octopus_math = { path = "../octopus_math" }
+octopus_ebpf = { path = "../octopus_ebpf" }
+octopus_ebpf_common = { path = "../octopus_ebpf_common", features = ["user"] }
+octopus_exec = { path = "../octopus_exec" }
+tokio = { version = "1", features = ["full"] }
+clap = { version = "4.4", features = ["derive"] }
+indicatif = "0.17"
+colored = "2.0"
+anyhow = "1.0"
+log = "0.4"
+env_logger = "0.10"
+rand = "0.8"
+

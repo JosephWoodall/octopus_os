@@ -1,0 +1,21 @@
+[package]
+name = "octopus_ebpf_programs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aya-ebpf = { git = "https://github.com/aya-rs/aya" }
+aya-log-ebpf = { git = "https://github.com/aya-rs/aya" }
+octopus_ebpf_common = { path = "../octopus_ebpf_common" }
+
+[[bin]]
+name = "octopus_ebpf_programs"
+path = "src/main.rs"
+
+[profile.release]
+panic = "abort"
+lto = "fat"
+opt-level = 3
+codegen-units = 1
+debug = 2
+

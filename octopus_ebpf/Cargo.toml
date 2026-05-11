@@ -1,0 +1,13 @@
+[package]
+name = "octopus_ebpf"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aya = { git = "https://github.com/aya-rs/aya" }
+aya-log = { git = "https://github.com/aya-rs/aya" }
+octopus_ebpf_common = { path = "../octopus_ebpf_common" }
+tokio = { version = "1", features = ["full"] }
+anyhow = "1.0"
+log = "0.4"
+

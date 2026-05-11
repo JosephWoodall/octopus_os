@@ -1,0 +1,12 @@
+/home/redleadr/workspace/octopus_os/target/debug/deps/which-a8e9ac9801deab9f.d: /home/redleadr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/which-8.0.2/src/lib.rs /home/redleadr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/which-8.0.2/src/checker.rs /home/redleadr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/which-8.0.2/src/error.rs /home/redleadr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/which-8.0.2/src/finder.rs /home/redleadr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/which-8.0.2/src/helper.rs /home/redleadr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/which-8.0.2/src/sys.rs
+
+/home/redleadr/workspace/octopus_os/target/debug/deps/libwhich-a8e9ac9801deab9f.rlib: /home/redleadr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/which-8.0.2/src/lib.rs /home/redleadr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/which-8.0.2/src/checker.rs /home/redleadr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/which-8.0.2/src/error.rs /home/redleadr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/which-8.0.2/src/finder.rs /home/redleadr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/which-8.0.2/src/helper.rs /home/redleadr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/which-8.0.2/src/sys.rs
+
+/home/redleadr/workspace/octopus_os/target/debug/deps/libwhich-a8e9ac9801deab9f.rmeta: /home/redleadr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/which-8.0.2/src/lib.rs /home/redleadr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/which-8.0.2/src/checker.rs /home/redleadr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/which-8.0.2/src/error.rs /home/redleadr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/which-8.0.2/src/finder.rs /home/redleadr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/which-8.0.2/src/helper.rs /home/redleadr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/which-8.0.2/src/sys.rs
+
+/home/redleadr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/which-8.0.2/src/lib.rs:
+/home/redleadr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/which-8.0.2/src/checker.rs:
+/home/redleadr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/which-8.0.2/src/error.rs:
+/home/redleadr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/which-8.0.2/src/finder.rs:
+/home/redleadr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/which-8.0.2/src/helper.rs:
+/home/redleadr/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/which-8.0.2/src/sys.rs:

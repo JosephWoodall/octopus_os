@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "octopus_math",
+    "octopus_ebpf",
+    "octopus_exec",
+    "octopus_os", 
+    "octopus_ebpf_common",
+]
+exclude = ["octopus_ebpf_programs"]
+resolver = "2"

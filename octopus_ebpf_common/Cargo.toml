@@ -1,0 +1,11 @@
+[package]
+name = "octopus_ebpf_common"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aya = { git = "https://github.com/aya-rs/aya", optional = true }
+
+[features]
+user = ["dep:aya"]
+
