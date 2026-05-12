@@ -98,6 +98,7 @@ async fn run_daemon(model_path: String) -> Result<()> {
     }
 
     let model = octopus_math::TssmModel::load(&model_path)?;
+    let mut tssm_state = model.new_state();
     pb.finish_with_message(format!("{} Central Ganglion Loaded: {:?}", "✔".green(), model.header));
 
     // 2. Initialize Sensory Tentacles (eBPF)
@@ -170,6 +171,10 @@ async fn run_daemon(model_path: String) -> Result<()> {
             }
             // Priority 2: Real Kernel Events
             Some(kernel_event) = event_rx.recv() => {
+                // Perform real inference on kernel event
+                let embedding = vec![kernel_event.event_type as f32; model.header.hidden_dim as usize];
+                let _inference_output = model.step(&embedding, &mut tssm_state);
+                
                 handle_kernel_event(kernel_event).await;
             }
             // Priority 3: Simulated Autonomous Behavior
